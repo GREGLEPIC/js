@@ -1,1 +1,10 @@
-setTimeout(function(){ alert('Hey le site xxxvidsxxx est trop bien. Veux-tu aller y faire un tour ?'); }, 10000);
+
+setTimeout(myFunction, 10000);
+
+function myFunction() {
+  if (confirm('Hey le site xxxvidsxxx est trop bien. Est-ce que tu veux venir jeter un oeil?')) {
+    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+  } else {
+
+  }
+}
